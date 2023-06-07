@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Enter Your Name: "
+read my_var
+git add -A
+git commit -m "${my_var}"
+git push
